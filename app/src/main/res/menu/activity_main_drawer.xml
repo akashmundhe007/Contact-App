@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_menu_contacts"
+            android:title="@string/menu_contact" />
+        <item
+            android:id="@+id/nav_calls"
+            android:icon="@drawable/ic_menu_calls"
+            android:title="@string/menu_call" />
+        <item
+            android:id="@+id/nav_sms"
+            android:icon="@drawable/ic_menu_sms"
+            android:title="@string/menu_sms" />
+    </group>
+</menu>
